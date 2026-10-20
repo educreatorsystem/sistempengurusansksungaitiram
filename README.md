@@ -1,17 +1,17 @@
-# SK@S · SK Sungai Tiram
+# SK@S 2.0 · SK Sungai Tiram
 
-Sistem pengurusan Kurikulum (3.1), Kokurikulum (3.2) dan Hal Ehwal Murid (3.3).
+Sistem baharu berdasarkan instrumen PDF pengguna: Kekuatan Kami, Pengurusan Kami dan Pencapaian Kami.
 
-**Mulakan dengan [PANDUAN-MULA-DI-SINI.md](PANDUAN-MULA-DI-SINI.md).**
+**Baca PANDUAN-MULA-DI-SINI.md sebelum memasang.**
 
-1. Pasang `appscript/Code.gs` dalam Apps Script.
-2. Jalankan `setupSystem()` dan salin kata laluan admin sementara daripada Execution log.
-3. Deploy Web App versi baharu: Execute as **Me**, akses **Anyone**.
-4. Muat naik fail laman dan folder `assets` ke GitHub Pages.
-5. Log masuk dan tukar kata laluan sementara.
+1. Salin APPSCRIPT_LENGKAP_COPY_PASTE.gs ke Code.gs dalam Apps Script.
+2. Jalankan setupSystem(), kemudian Deploy → Manage deployments → Edit → New version.
+3. Gunakan Execute as Me dan akses Anyone.
+4. Muat naik fail laman dan folder assets ke GitHub Pages. Tiada npm/build diperlukan.
+5. Uji sambungan dan log masuk. Akaun v1 dikekalkan jika menggunakan projek yang sama.
 
-Tiada npm install atau build diperlukan. PWA menggunakan path relatif untuk menyokong GitHub Pages subfolder.
+Jangan pasang fail gabungan bersama fail modular appscript/*.gs dalam projek yang sama.
 
-Fail `config.js` telah diisi dengan URL API/CSV yang dibekalkan. Jika mencipta deployment Google yang baharu, gantikan `apiUrl` di situ.
+70 item · 216 tindakan rubrik · 58 medan numerik. Purata ialah kiraan dalaman; tiada wajaran rasmi keseluruhan diandaikan.
 
-Butang **Lihat demonstrasi** menggunakan data contoh dalam memori dan tidak menulis ke Google Sheets.
+Mod demo tidak menulis ke Google Sheets. Rekod v1 dikekalkan dan boleh dilihat admin melalui Arkib V1.

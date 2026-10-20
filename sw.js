@@ -1,6 +1,6 @@
 /* Cache hanya fail aplikasi; panggilan API, rekod dan evidens tidak dicache. */
-const CACHE='skas-shell-v1.0.0';
-const ASSETS=['./','./index.html','./styles.css','./config.js','./app.js','./manifest.webmanifest','./assets/lencana.png','./assets/icon.svg','./assets/icon-192.png','./assets/icon-512.png','./assets/icon-maskable-512.png','./assets/jakarta.woff2'];
+const CACHE='skas-shell-v2.0.0';
+const ASSETS=['./','./index.html','./styles.css','./config.js','./instrumen.js','./scoring.js','./app.js','./manifest.webmanifest','./assets/lencana.png','./assets/icon.svg','./assets/icon-192.png','./assets/icon-512.png','./assets/icon-maskable-512.png','./assets/jakarta.woff2'];
 self.addEventListener('install',event=>event.waitUntil(caches.open(CACHE).then(cache=>cache.addAll(ASSETS)).then(()=>self.skipWaiting())));
 self.addEventListener('activate',event=>event.waitUntil(caches.keys().then(keys=>Promise.all(keys.filter(k=>k.startsWith('skas-shell-')&&k!==CACHE).map(k=>caches.delete(k)))).then(()=>self.clients.claim())));
 self.addEventListener('fetch',event=>{
