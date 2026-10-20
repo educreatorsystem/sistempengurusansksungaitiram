@@ -1,5 +1,7 @@
 # SK@S 2.0 · SK Sungai Tiram
 
+Header utama: **SISTEM STANDARD KUALITI PENDIDIKAN MALAYSIA**. Kemas kini ini menambah logo pengguna, ikon PWA dan animasi hover. Untuk pemasangan v2 sedia ada, gantikan fail laman dan folder assets di GitHub sahaja; API Apps Script kekal 2.0.0.
+
 Sistem baharu berdasarkan instrumen PDF pengguna: Kekuatan Kami, Pengurusan Kami dan Pencapaian Kami.
 
 **Baca PANDUAN-MULA-DI-SINI.md sebelum memasang.**

@@ -1,5 +1,13 @@
 # SK@S 2.0 — SK SUNGAI TIRAM
 
+## Kemas kini logo, header dan hover
+
+Tajuk utama ialah **SISTEM STANDARD KUALITI PENDIDIKAN MALAYSIA**. Logo yang dibekalkan berada dalam `assets/logo-sistem.png`, turut digunakan pada header, menu sisi dan ikon PWA. Lencana sekolah dikekalkan berasingan. Animasi hover menyokong tetapan kurangkan pergerakan pada peranti.
+
+**Jika Apps Script v2 sudah dipasang:** kemas kini fail laman GitHub dan keseluruhan folder `assets` sahaja. Tidak perlu menjalankan setupSystem atau deploy semula Apps Script untuk perubahan rupa ini. Ikuti langkah pemasangan penuh di bawah hanya untuk pemasangan baharu atau naik taraf API v1.
+
+Selepas GitHub Pages selesai diterbitkan, muat semula laman dan buka semula PWA. Jika ikon pemasangan lama masih digunakan oleh peranti, nyahpasang pintasan PWA lama dan pasang semula daripada laman yang dikemas kini.
+
 Sistem baharu berasaskan PDF **SKPM Kualiti@Sekolah — Bab 3 Instrumen** yang dibekalkan pengguna.
 
 **Mula dengan memasang Apps Script v2. Frontend v2 tidak boleh menggunakan API v1.**
